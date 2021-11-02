@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SuperluminalProfiler",
+	"Description": "",
+	"Category": "Programming",
+	"CreatedBy": "David Radobenko",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SuperluminalProfiler",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			],
+			"WhitelistTargetConfigurations": [
+				"Debug",
+				"DebugGame",
+				"Development"
+			],
+			"WhitelistTargets": [
+				"Game",
+				"Editor",
+				"Client",
+				"Server",
+				"Program"
+			]
+		}
+	]
+}
